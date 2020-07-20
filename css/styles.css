@@ -54,6 +54,7 @@ body {
 .instruction {
   color: var(--royal-blue-light);
   font-style: italic;
+  font-size: .778em;
 }
 
 /* ADC styling */
@@ -71,11 +72,11 @@ body {
   box-shadow: 0 .111em .222em rgba(0, 0, 0, .05);
   cursor: pointer;
   display: inline-block;
-  margin: 0 0 10px;
+  margin: 0 0 .556em;
   padding: 1.111em 1.111em 1.111em 3.611em;
   position: relative;
   transition: .3s ease all;
-  max-width: 960px;
+  max-width: 53.333em;
 }
 
 .segment-label:hover {
