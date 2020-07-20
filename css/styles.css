@@ -1,3 +1,13 @@
 :root {
   font-size: 18px;
+
+  --selago: #E8EFFC;
+  --royal-blue: #624CE0;
+  --royal-blue-light: #9F93E6;
+  --royal-blue-dark: #4C3BAD;
+}
+
+body {
+  background-color: var(--selago);
+  font-family: 'Inter', sans-serif;
 }
