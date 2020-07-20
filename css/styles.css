@@ -80,6 +80,7 @@ body {
 }
 
 .segment-label:hover {
+  border: .056em solid var(--royal-blue-light);
   box-shadow: 0 .222em .444em rgba(0, 0, 0, .05);
 }
 
