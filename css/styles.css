@@ -9,8 +9,14 @@
 
 body {
   background-color: var(--selago);
+  color: var(--royal-blue);
   font-family: 'Inter', sans-serif;
   height: 100vh;
+}
+
+::selection {
+  background-color: var(--royal-blue);
+  color: var(--selago);
 }
 
 /* Grids */
