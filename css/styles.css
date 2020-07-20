@@ -32,7 +32,14 @@ body {
 
 .questions {
   grid-area: questions;
-  margin: 0 auto;
+  margin: 0;
+}
+
+.question {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr;
+  grid-template-areas: "question-caption" "input-container";
 }
 
 .question:not(:last-of-type) {
@@ -40,16 +47,18 @@ body {
 }
 
 .question-caption {
+  grid-area: question-caption;
   font-size: 1.111rem;
 }
 
-.question-instruction {
+.instruction {
   color: var(--royal-blue-light);
   font-style: italic;
 }
 
 /* ADC styling */
 .input-container {
+  grid-area: input-container;
   max-width: 25em;
   width: 100%;
 }
