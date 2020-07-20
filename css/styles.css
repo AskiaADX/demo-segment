@@ -41,6 +41,11 @@ body {
   font-size: 1.111rem;
 }
 
+.question-instruction {
+  color: var(--royal-blue-light);
+  font-style: italic;
+}
+
 /* ADC styling */
 .input-container {
   max-width: 25em;
