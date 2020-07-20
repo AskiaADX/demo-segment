@@ -10,4 +10,20 @@
 body {
   background-color: var(--selago);
   font-family: 'Inter', sans-serif;
+  height: 100vh;
+}
+
+/* Grids */
+body {
+  display: grid;
+  grid-template-columns: 10em repeat(2, 1fr) 10em;
+  grid-template-rows: 10em repeat(2, 1fr) 10em;
+  grid-template-areas:
+    ". . . ."
+    ". questions questions ."
+    ". questions questions ." ". . . .";
+}
+
+.questions {
+  grid-area: questions;
 }
